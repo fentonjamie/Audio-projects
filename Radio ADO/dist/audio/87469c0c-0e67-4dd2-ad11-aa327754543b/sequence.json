@@ -1,0 +1,28 @@
+{
+  "duration": 63.16,
+  "loop": true,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-Background",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 63.16,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/87469c0c-0e67-4dd2-ad11-aa327754543b/01_Background_000000/manifest.mpd",
+            "urlSafari": "audio/87469c0c-0e67-4dd2-ad11-aa327754543b/01_Background_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bundle.css" />
+    <title>Title</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="bundle.js"></script>
+    <script>
+      
+      
+      
+      
+
+      // Any value specified in config.js may be overwritten here without having to rebuild the app.
+      const config = {
+  "LOCAL_SESSION_ID_PREFIX": "bbcat-orchestration-template",
+  "INITIAL_CONTENT_ID": "87469c0c-0e67-4dd2-ad11-aa327754543b",
+  "SEQUENCE_URLS": [
+    {
+      "name": "Initial sequence",
+      "contentId": "87469c0c-0e67-4dd2-ad11-aa327754543b",
+      "url": "audio/87469c0c-0e67-4dd2-ad11-aa327754543b/sequence.json",
+      "hold": false,
+      "skippable": true,
+      "next": [
+        {
+          "contentId": "9d98f2b6-163c-442f-9a71-b38fb011cd4b",
+          "label": "continue"
+        }
+      ]
+    },
+    {
+      "name": "main",
+      "contentId": "9d98f2b6-163c-442f-9a71-b38fb011cd4b",
+      "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/sequence.json",
+      "hold": true,
+      "skippable": true,
+      "next": [
+        {
+          "contentId": "9d98f2b6-163c-442f-9a71-b38fb011cd4b",
+          "label": "repeat"
+        }
+      ]
+    }
+  ],
+  "CONTROLS": [],
+  "CLOUDSYNC_ENDPOINT": {
+    "hostname": "cloudsync.virt.ch.bbc.co.uk"
+  },
+  "TEXT_TITLE": "Title",
+  "TEXT_SUBTITLE": "Subtitle",
+  "TEXT_INTRODUCTION": "Introduction",
+  "TEXT_START_LABEL": "Start new session",
+  "TEXT_JOIN_LABEL": "Join existing session",
+  "ACCENT_COLOUR": "#006def",
+  "DEBUG_UI": true,
+  "ENABLE_TUTORIAL": false,
+  "MDO_COMPRESSOR_RATIO": 2,
+  "MDO_COMPRESSOR_THRESHOLD": 0,
+  "OBJECT_FADE_OUT_DURATION": 0
+};
+
+      // Instantiate the React app to render into the #app div:
+      initOrchestrationTemplate(document.getElementById('app'), config);
+    </script>
+    <noscript>
+      This page requires JavaScript to be enabled.
+    </noscript>
+  </body>
+</html>

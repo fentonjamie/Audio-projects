@@ -1,0 +1,40 @@
+{
+  "duration": 53.82,
+  "loop": true,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-Background",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 53.82,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/6ab237e5-0231-4100-94f8-a4096d2c3170/01_Background_000000/manifest.mpd",
+            "urlSafari": "audio/6ab237e5-0231-4100-94f8-a4096d2c3170/01_Background_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}

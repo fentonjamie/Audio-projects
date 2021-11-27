@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bundle.css" />
+    <title>The song</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="bundle.js"></script>
+    <script>
+      
+      
+      
+      
+
+      // Any value specified in config.js may be overwritten here without having to rebuild the app.
+      const config = {
+  "LOCAL_SESSION_ID_PREFIX": "bbcat-orchestration-template",
+  "INITIAL_CONTENT_ID": "b038ee00-c710-4d04-a2d2-5a082fcfdfda",
+  "SEQUENCE_URLS": [
+    {
+      "name": "Initial sequence",
+      "contentId": "b038ee00-c710-4d04-a2d2-5a082fcfdfda",
+      "url": "audio/b038ee00-c710-4d04-a2d2-5a082fcfdfda/sequence.json",
+      "hold": false,
+      "skippable": true,
+      "next": [
+        {
+          "contentId": "bd8acbd8-5a8b-45b2-a024-9b05b630f932",
+          "label": "Continue to main song"
+        }
+      ]
+    },
+    {
+      "name": "Song",
+      "contentId": "bd8acbd8-5a8b-45b2-a024-9b05b630f932",
+      "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/sequence.json",
+      "hold": true,
+      "skippable": false,
+      "next": [
+        {
+          "contentId": "bd8acbd8-5a8b-45b2-a024-9b05b630f932",
+          "label": "Repeat"
+        }
+      ]
+    }
+  ],
+  "CONTROLS": [],
+  "CLOUDSYNC_ENDPOINT": {
+    "hostname": "cloudsync.virt.ch.bbc.co.uk"
+  },
+  "TEXT_TITLE": "The song",
+  "TEXT_SUBTITLE": "",
+  "TEXT_INTRODUCTION": "",
+  "TEXT_START_LABEL": "Start new session",
+  "TEXT_JOIN_LABEL": "Join existing session",
+  "ACCENT_COLOUR": "#006def",
+  "DEBUG_UI": true,
+  "ENABLE_TUTORIAL": false,
+  "ENABLE_PLAY_PAUSE_ON_AUX": true,
+  "MDO_COMPRESSOR_RATIO": 2,
+  "MDO_COMPRESSOR_THRESHOLD": 0,
+  "OBJECT_FADE_OUT_DURATION": 0
+};
+
+      // Instantiate the React app to render into the #app div:
+      initOrchestrationTemplate(document.getElementById('app'), config);
+    </script>
+    <noscript>
+      This page requires JavaScript to be enabled.
+    </noscript>
+  </body>
+</html>

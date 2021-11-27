@@ -1,0 +1,221 @@
+{
+  "duration": 63.16,
+  "loop": false,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-Background",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 2,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 63.16,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/01_Background_000000/manifest.mpd",
+            "urlSafari": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/01_Background_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "2-Female voice",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 2,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 1.96,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/02_Femalevoice_000000.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 4.22,
+          "duration": 0.93,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/02_Femalevoice_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 10.8,
+          "duration": 2.08,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/02_Femalevoice_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 15.87,
+          "duration": 1.85,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/02_Femalevoice_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 35.26,
+          "duration": 2.2,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/02_Femalevoice_000004.m4a",
+            "urlSafari": null
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "3-Male voice",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 3,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 2.6,
+          "duration": 13.6,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/03_Malevoice_000000/manifest.mpd",
+            "urlSafari": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/03_Malevoice_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 17.72,
+          "duration": 17.87,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/03_Malevoice_000001/manifest.mpd",
+            "urlSafari": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/03_Malevoice_000001/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 37.57,
+          "duration": 16.83,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/03_Malevoice_000002/manifest.mpd",
+            "urlSafari": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/03_Malevoice_000002/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "4-Together",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 2,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 54.3,
+          "duration": 8.91,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/9d98f2b6-163c-442f-9a71-b38fb011cd4b/04_Together_000000.m4a",
+            "urlSafari": null
+          }
+        }
+      ]
+    }
+  ]
+}

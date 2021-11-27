@@ -1,0 +1,417 @@
+{
+  "duration": 53.82,
+  "loop": false,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-Background",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 2,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 53.82,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/01_Background_000000/manifest.mpd",
+            "urlSafari": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/01_Background_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "2-Walk",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 3,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 26.2,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/02_Walk_000000/manifest.mpd",
+            "urlSafari": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/02_Walk_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "3-In Radio 1",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 2,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 5.95,
+          "duration": 6.86,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/03_InRadio1_000000.m4a",
+            "urlSafari": null
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "4-Out Radio 1",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 3,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 12.87,
+          "duration": 3.63,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/04_OutRadio1_000000.m4a",
+            "urlSafari": null
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "5-Gunshots",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 2,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 23.95,
+          "duration": 29.92,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/05_Gunshots_000000/manifest.mpd",
+            "urlSafari": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/05_Gunshots_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "6-Gunshot 2",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 3,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 28.57,
+          "duration": 16.06,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/06_Gunshot2_000000/manifest.mpd",
+            "urlSafari": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/06_Gunshot2_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "7-panic radio in",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 2,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 23.95,
+          "duration": 6.29,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/07_panicradioin_000000.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 40.1,
+          "duration": 9.98,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/07_panicradioin_000001.m4a",
+            "urlSafari": null
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "8-panic radio out",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 3,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 33.64,
+          "duration": 3.98,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/08_panicradioout_000000.m4a",
+            "urlSafari": null
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "9-run",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "spread",
+          "behaviourParameters": {
+            "enableGainCompensation": false
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 3,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 25.34,
+          "duration": 28.53,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/09_run_000000/manifest.mpd",
+            "urlSafari": "audio/222f4c45-4dab-465f-8d4d-7d1c7cdb9f82/09_run_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}

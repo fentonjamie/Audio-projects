@@ -1,0 +1,320 @@
+{
+  "duration": 116.32,
+  "loop": false,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "1-Peanut butter play_main",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 2,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 58.65,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/01_Peanutbutterplay_main_000000/manifest.mpd",
+            "urlSafari": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/01_Peanutbutterplay_main_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 67.95,
+          "duration": 48.42,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/01_Peanutbutterplay_main_000001/manifest.mpd",
+            "urlSafari": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/01_Peanutbutterplay_main_000001/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "2-Peanut butter play_drums",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 3,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 10.58,
+          "duration": 55.25,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/02_Peanutbutterplay_drums_000000/manifest.mpd",
+            "urlSafari": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/02_Peanutbutterplay_drums_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 67.95,
+          "duration": 40.38,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/02_Peanutbutterplay_drums_000001/manifest.mpd",
+            "urlSafari": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/02_Peanutbutterplay_drums_000001/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "3-Peanut butter play_hats",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 3,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 46.02,
+          "duration": 68.3,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/03_Peanutbutterplay_hats_000000/manifest.mpd",
+            "urlSafari": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/03_Peanutbutterplay_hats_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "4-Peanut butter play_piano",
+      "objectBehaviours": [
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": true
+              }
+            ]
+          }
+        },
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 2,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 19.78,
+          "duration": 4.17,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/04_Peanutbutterplay_piano_000000.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 31.12,
+          "duration": 4.17,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/04_Peanutbutterplay_piano_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 42.45,
+          "duration": 4.17,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/04_Peanutbutterplay_piano_000002.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 53.79,
+          "duration": 4.17,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/04_Peanutbutterplay_piano_000003.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 76.46,
+          "duration": 4.17,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/04_Peanutbutterplay_piano_000004.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 87.79,
+          "duration": 4.17,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/04_Peanutbutterplay_piano_000005.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 99.12,
+          "duration": 4.17,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/04_Peanutbutterplay_piano_000006.m4a",
+            "urlSafari": null
+          }
+        }
+      ]
+    },
+    {
+      "objectId": "5-Peanut butter play_speech",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceJoiningNumber",
+                "operator": "equals",
+                "value": 3,
+                "invertCondition": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 33.92,
+          "duration": 24.34,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/05_Peanutbutterplay_speech_000000/manifest.mpd",
+            "urlSafari": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/05_Peanutbutterplay_speech_000000/manifest-safari.mpd"
+          }
+        },
+        {
+          "start": 65.12,
+          "duration": 4.29,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "buffer",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/05_Peanutbutterplay_speech_000001.m4a",
+            "urlSafari": null
+          }
+        },
+        {
+          "start": 90.62,
+          "duration": 24.39,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/05_Peanutbutterplay_speech_000002/manifest.mpd",
+            "urlSafari": "audio/bd8acbd8-5a8b-45b2-a024-9b05b630f932/05_Peanutbutterplay_speech_000002/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}

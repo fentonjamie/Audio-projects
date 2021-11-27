@@ -1,0 +1,40 @@
+{
+  "duration": 189.83,
+  "loop": true,
+  "outPoints": [],
+  "objects": [
+    {
+      "objectId": "6-Elevator Music - Gaming Background Music (HD)",
+      "objectBehaviours": [
+        {
+          "behaviourType": "allowedEverywhere"
+        },
+        {
+          "behaviourType": "prohibitedIf",
+          "behaviourParameters": {
+            "conditions": [
+              {
+                "property": "device.deviceIsMain",
+                "operator": "equals",
+                "value": false
+              }
+            ]
+          }
+        }
+      ],
+      "items": [
+        {
+          "start": 0,
+          "duration": 189.83,
+          "source": {
+            "channelMapping": "stereo",
+            "panning": 0,
+            "type": "dash",
+            "url": "audio/b038ee00-c710-4d04-a2d2-5a082fcfdfda/06_ElevatorMusic-GamingBackgroundMusicHD_000000/manifest.mpd",
+            "urlSafari": "audio/b038ee00-c710-4d04-a2d2-5a082fcfdfda/06_ElevatorMusic-GamingBackgroundMusicHD_000000/manifest-safari.mpd"
+          }
+        }
+      ]
+    }
+  ]
+}
